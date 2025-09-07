@@ -16,7 +16,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://edu-feedback-mern-frontend.vercel.app',
   credentials: true,
   exposedHeaders: ['Authorization', 'Set-Cookie'],
   allowedHeaders: ['Content-Type', 'Authorization']
